@@ -9,7 +9,7 @@
       var template = HtmlService.createTemplateFromFile("index");
       return template.evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME);
   }
-
+  //funcion para incluir html
   function include(filename) {
       return HtmlService.createHtmlOutputFromFile(filename)
           .getContent();
