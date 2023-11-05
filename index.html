@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <?!= include('sketch'); ?>
+
+    <script>
+      // function onSuccess(balance) {
+      //   var div = document.getElementById('output');
+      //   div.innerHTML = balance;
+      // }
+
+      // google.script.run.withSuccessHandler(onSuccess)
+      // .getLocation();
+    </script>
+</head>
+<body>
+
+<?!= include('geolocation'); ?>
+
+<!-- <input type="button" value="LOCATION"
+      onclick="google.script.run.getLocation()" />
+<!-- <button onclick="getLocation">Try It</button>
+<p id="location"></p>
+<div id="output">No result yet...</div> -->
+
+
+  <h1>Canvas for visualization</h1>
+  <div id="canvasForHTML"></div>
+</body>
+</html>
